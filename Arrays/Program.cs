@@ -59,25 +59,25 @@ namespace HelloWorld
 
             //////33333
 
-            //int[] number = new int[] { 3, 7, 90, 4, 234, 67, 54, 231 };
-            //int index = 0;
+            int[] number = new int[] { 3, 7, 90, 4, 234, 67, 54, 231 };
+            int index = 0;
 
-            //for (int i = 0; i < number.Length / 2; i++)
-            //{
-            //    index = number[i];
-            //    number[i] = number[number.Length - i - 1];
-            //    number[number.Length - i - 1] = index;
-
-
-            //}
-
-            //for (int i = 0; i < number.Length; i++)
-            //{
-            //    Console.Write(number[i] + " , ");
+            for (int i = 0; i < number.Length / 2; i++)
+            {
+                index = number[i];
+                number[i] = number[number.Length - i - 1];
+                number[number.Length - i - 1] = index;
 
 
+            }
 
-            //}
+            for (int i = 0; i < number.Length; i++)
+            {
+                Console.Write(number[i] + " , ");
+
+
+
+            }
 
 
 
